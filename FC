@@ -1,0 +1,11 @@
+class FC {
+	
+public static void main (String [] args) {
+		
+		// input for Farenheit
+		int far = 75;
+		// formula for Centigrade
+		double cen = (far - 32) * 5/9;
+		System.out.println(far + "F temp = " + cen + "C temp");
+		}
+}

@@ -1,0 +1,28 @@
+class Loan {
+	
+	public static void main (String [] args){
+		
+		float Loan = 3000.00f;
+		
+		// months to pay off loan	
+		int mPay = 6;
+		
+		//interest rate of 20.5% 
+		float iRate = .205f;
+		
+		//total amount over 6 months owed
+		float totalAmount += (totalAmount*iRate);
+
+		//monthly payment
+		float mpayment = totalAmount/mPay
+
+		//remainding balance
+		float rbalance = totalAmount - mpayment;
+		
+		//loop
+		for (int i = 1; i <=6; i--);
+		
+		System.out.printf("payment amount left is $ %.02f"), rbalance;
+		}
+
+}	
